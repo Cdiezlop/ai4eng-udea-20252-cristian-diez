@@ -1,15 +1,15 @@
-# AI4ENG UDEA 2025-2 — Pruebas Saber Pro Colombia
+# AI4ENG UDEA 2025-2 – Pruebas Saber Pro Colombia
 
-## 🧠 Introducción
-Este repositorio contiene el desarrollo del proyecto de la competencia **AI4ENG UDEA - Semestre 2025-2**, cuyo objetivo es aplicar técnicas de aprendizaje automático para predecir el **rendimiento global** de los estudiantes colombianos en las **Pruebas Saber Pro**, clasificándolos en cuatro categorías:  
-**bajo, medio-bajo, medio-alto y alto.**
+## Introducción
+Este repositorio corresponde a la primera entrega del proyecto de la competencia **AI4ENG UDEA 2025-2**, desarrollada dentro del curso **Modelos y Simulación de Sistemas** del programa de **Ingeniería de Sistemas** de la Universidad de Antioquia.
 
-El trabajo se desarrolla como parte del curso **Modelos y Simulación de Sistemas** de la Universidad de Antioquia, en el programa de **Ingeniería de Sistemas**.  
-Durante el semestre se realizarán tres entregas progresivas que incluyen exploración, preprocesamiento, modelado y envío de resultados a Kaggle.
+El objetivo del proyecto es construir un modelo de aprendizaje automático que prediga el **rendimiento global** de los estudiantes en las **Pruebas Saber Pro**, clasificándolos en las categorías: bajo, medio-bajo, medio-alto y alto.
+
+En esta primera entrega se realiza la **exploración inicial del conjunto de datos** de entrenamiento (`train.csv`), verificando su estructura, los tipos de variables, valores faltantes y la distribución de la variable objetivo `RENDIMIENTO_GLOBAL`.
 
 ---
 
-## 👥 Integrantes del equipo
+## Integrantes del equipo
 
 | Nombre completo | Cédula | Programa académico | Usuario de Kaggle |
 |------------------|---------|--------------------|-------------------|
@@ -19,57 +19,26 @@ Durante el semestre se realizarán tres entregas progresivas que incluyen explor
 
 ---
 
-## 📁 Contenido del repositorio
+## Contenido del repositorio
 
 | Archivo | Descripción |
-|----------|--------------|
-| `01 - exploración.ipynb` | Carga y exploración inicial del dataset `train.csv` de la competencia. Se verifican dimensiones, tipos de datos, valores faltantes y distribución de la variable objetivo `RENDIMIENTO_GLOBAL`. |
-| `README.md` | Información general del proyecto, integrantes y estructura de entregas. |
+|----------|-------------|
+| `01 - exploración.ipynb` | Carga y exploración básica del conjunto de datos `train.csv` de la competencia. |
+| `README.md` | Información general del proyecto e identificación de los integrantes. |
 
 ---
 
-## 🎯 Objetivo del proyecto
-Desarrollar un **modelo de clasificación multiclase** capaz de predecir el nivel de desempeño (`RENDIMIENTO_GLOBAL`) de estudiantes a partir de sus características socioeconómicas, académicas e institucionales.  
-
-El proyecto se evalúa con base en:
-- **Claridad**: notebooks comentados y entendibles.  
-- **Compleción**: inclusión de los archivos requeridos por entrega.  
-- **Reproducibilidad**: notebooks que puedan ejecutarse sin errores.
+## Competencia en Kaggle
+**Nombre:** [UDEA/AI4ENG 20252 - Pruebas Saber Pro Colombia](https://www.kaggle.com/competitions/udea-ai-4-eng-20252-pruebas-saber-pro-colombia)  
+**Tarea:** Clasificación multiclase  
+**Variable objetivo:** `RENDIMIENTO_GLOBAL`  
+**Métrica:** Accuracy  
 
 ---
 
-## 🧩 Descripción de la competencia
+## Información académica
+- **Curso:** Modelos y Simulación de Sistemas  
+- **Semestre:** 2025-2  
+- **Docente:** Raúl Ramos Pollán  
+- **Institución:** Universidad de Antioquia  
 
-**Competencia en Kaggle:** [UDEA/AI4ENG 20252 - Pruebas Saber Pro Colombia](https://www.kaggle.com/competitions/udea-ai-4-eng-20252-pruebas-saber-pro-colombia)
-
-- **Tarea:** Clasificación multiclase (4 clases)  
-- **Variable objetivo:** `RENDIMIENTO_GLOBAL`  
-- **Métrica de evaluación:** *Accuracy*  
-- **Archivos principales:**  
-  - `train.csv`: Datos de entrenamiento.  
-  - `test.csv`: Datos de prueba (sin etiquetas).  
-  - `sample_submission.csv`: Formato de envío a Kaggle.
-
----
-
-## ⚙️ Tecnologías utilizadas
-- Python (Google Colab)
-- Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- Kaggle API para descarga y envío de resultados
-- GitHub para control de versiones
-
----
-
-## 📆 Entregas del proyecto
-
-1. **Entrega 1:** Exploración de datos (`01 - exploración.ipynb`)
-2. **Entrega 2:** Preprocesamiento y análisis con video explicativo
-3. **Entrega final:** Modelos, comparación y envío de resultados a Kaggle
-
----
-
-## © Universidad de Antioquia
-**Curso:** Modelos y Simulación de Sistemas  
-**Semestre:** 2025-2  
-**Docente:** Raúl Ramos Pollán  
-**Institución:** Facultad de Ingeniería, Universidad de Antioquia
