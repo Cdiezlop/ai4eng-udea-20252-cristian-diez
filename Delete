@@ -1,0 +1,36 @@
+
+# Tipos de datos
+print("\nTipos de datos por columna:")
+display(data.dtypes)
+
+# Valores faltantes
+print("\nPorcentaje de valores faltantes por columna:")
+display((data.isnull().sum() / len(data) * 100).sort_values(ascending=False))
+
+# ---------------------------------------------------------
+# 📊 4. Distribución de la variable objetivo
+# ---------------------------------------------------------
+# Exploramos cómo se distribuyen las clases de RENDIMIENTO_GLOBAL
+
+if 'RENDIMIENTO_GLOBAL' in data.columns:
+    print("\nDistribución de la variable objetivo:")
+    display(data['RENDIMIENTO_GLOBAL'].value_counts())
+
+    import matplotlib.pyplot as plt
+    data['RENDIMIENTO_GLOBAL'].value_counts().plot(
+        kind='bar', title='Distribución de RENDIMIENTO_GLOBAL', rot=0
+    )
+    plt.xlabel("Categoría")
+    plt.ylabel("Cantidad de estudiantes")
+    plt.show()
+else:
+    print("\n⚠️ La columna 'RENDIMIENTO_GLOBAL' no está presente en el dataset.")
+
+# ---------------------------------------------------------
+# 🧩 5. Observaciones iniciales
+# ---------------------------------------------------------
+# - Verificar si hay columnas con muchos valores faltantes.
+# - Identificar variables numéricas y categóricas.
+# - Considerar normalización o codificación para próximas etapas.
+
+# Fin del notebook de exploración.
