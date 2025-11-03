@@ -1,21 +1,26 @@
-# AI4ENG UDEA 2025-2 – Pruebas Saber Pro Colombia
+# ENTREGA 2 - Proyecto AI4ENG UDEA
 
-## Introducción
-Este repositorio corresponde a la primera entrega del proyecto de la competencia **AI4ENG UDEA 2025-2**, desarrollada dentro del curso **Modelos y Simulación de Sistemas** del programa de **Ingeniería de Sistemas** de la Universidad de Antioquia.
+## Competencia Kaggle: Pruebas Saber Pro 2025-2
 
-El objetivo del proyecto es construir un modelo de aprendizaje automático que prediga el **rendimiento global** de los estudiantes en las **Pruebas Saber Pro**, clasificándolos en las categorías: bajo, medio-bajo, medio-alto y alto.
-
-En esta primera entrega se realiza la **exploración inicial del conjunto de datos** de entrenamiento (`train.csv`), verificando su estructura, los tipos de variables, valores faltantes y la distribución de la variable objetivo `RENDIMIENTO_GLOBAL`.
+Este repositorio contiene las entregas progresivas del proyecto del curso **Modelos y Simulación de Sistemas** (Semestre 2025-2), enfocado en predecir el rendimiento global de los estudiantes en las Pruebas Saber Pro.
 
 ---
 
 ## Integrantes del equipo
 
-| Nombre completo | Cédula | Programa académico |
-|------------------|---------|--------------------|
-| Cristian Diez | 1036967493 | Ingeniería de Sistemas |
-| Rafael Ángel Alemán Castillo | 1001560844 | Ingeniería de Sistemas |
-| Alejandro Gallego Alarcón | 1013104268 | Ingeniería de Sistemas |
+| Nombre completo | Cédula | Programa académico | Usuario Kaggle |
+|-----------------|--------|--------------------|----------------|
+| Cristian Diez | 1036967493 | Ingeniería de Sistemas | cdiezlop |
+| Rafael Ángel Alemán Castillo | 1001560844 | Ingeniería de Sistemas | - |
+| Alejandro Gallego Alarcón | 1013104268 | Ingeniería de Sistemas | - |
+
+---
+
+## Entrega 2: Video de Avance y Preprocesado
+
+**Video de Avance (Cristian Diez):** [https://youtu.be/Ej9LHUxAb5Y](https://youtu.be/Ej9LHUxAb5Y)
+
+*(Este video individual explica el avance del proyecto, el notebook 02, y las dificultades encontradas, según los requisitos de la entrega 2).*
 
 ---
 
@@ -23,22 +28,14 @@ En esta primera entrega se realiza la **exploración inicial del conjunto de dat
 
 | Archivo | Descripción |
 |----------|-------------|
-| `01 - exploración.ipynb` | Carga y exploración básica del conjunto de datos `train.csv` de la competencia. |
-| `README.md` | Información general del proyecto e identificación de los integrantes. |
-
----
-
-## Competencia en Kaggle
-**Nombre:** [UDEA/AI4ENG 20252 - Pruebas Saber Pro Colombia](https://www.kaggle.com/competitions/udea-ai-4-eng-20252-pruebas-saber-pro-colombia)  
-**Tarea:** Clasificación multiclase  
-**Variable objetivo:** `RENDIMIENTO_GLOBAL`  
-**Métrica:** Accuracy  
+| `01 - exploración.ipynb` | (Entrega 1) Carga y exploración básica del conjunto de datos `train.csv`. |
+| `02 - preprocesado.ipynb` | (Entrega 2) Carga de datos desde Kaggle, limpieza, imputación de nulos, One-Hot Encoding y normalización de los datos. |
+| `README.md` | Información general del proyecto, integrantes y enlace al video de avance. |
 
 ---
 
 ## Información académica
-- **Curso:** Modelos y Simulación de Sistemas  
-- **Semestre:** 2025-2  
-- **Docente:** Raúl Ramos Pollán  
-- **Institución:** Universidad de Antioquia  
-
+- **Curso:** Modelos y Simulación de Sistemas
+- **Semestre:** 2025-2
+- **Docente:** Raúl Ramos Pollán
+- **Institución:** Universidad de Antioquia
