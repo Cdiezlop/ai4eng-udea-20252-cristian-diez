@@ -11,11 +11,11 @@ En esta primera entrega se realiza la **exploración inicial del conjunto de dat
 
 ## Integrantes del equipo
 
-| Nombre completo | Cédula | Programa académico | Usuario de Kaggle |
-|------------------|---------|--------------------|-------------------|
-| Cristian Diez | 1036967493 | Ingeniería de Sistemas | [cdiezlop](https://www.kaggle.com/cdiezlop) |
-| Rafael Ángel Alemán Castillo | 1001560844 | Ingeniería de Sistemas | — |
-| Alejandro Gallego Alarcón | 1013104268 | Ingeniería de Sistemas | — |
+| Nombre completo | Cédula | Programa académico |
+|------------------|---------|--------------------|
+| Cristian Diez | 1036967493 | Ingeniería de Sistemas |
+| Rafael Ángel Alemán Castillo | 1001560844 | Ingeniería de Sistemas |
+| Alejandro Gallego Alarcón | 1013104268 | Ingeniería de Sistemas |
 
 ---
 
